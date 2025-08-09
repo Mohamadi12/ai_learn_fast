@@ -3,7 +3,7 @@ import { generateText } from "ai";
 
 const lmstudio = createOpenAICompatible({
   name: "lmstudio",
-  baseURL: `http://localhost:1234/v1`, // Changer juste l'URL si ça respect OpenAi
+  baseURL: `http://localhost:1234/v1`, // Changer juste l'URL si ça respect OpenAi(local)
 });
 
 const model = lmstudio("");
