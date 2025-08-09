@@ -1,0 +1,13 @@
+
+
+{
+  "name": "Baba Ganoush",
+  "ingredients": [
+    { "name": "Aubergine", "amount": "2 large" },
+    { "name": "Tahini", "amount": "3 tablespoons" }
+  ],
+  "steps": [
+    "Preheat the oven to 200°C (400°F).",
+    "Pierce the aubergines several times with a fork."
+  ]
+}
