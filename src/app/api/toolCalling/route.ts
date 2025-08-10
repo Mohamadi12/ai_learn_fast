@@ -8,12 +8,11 @@ const model = openai("gpt-4.1-nano");
 
 const logToConsoleTool = tool({
   description: "Log a message to the console",
-  parameters: z.object({
+  inputSchema: z.object({
     message: z
       .string()
       .describe("The message to log to the console"),
   }),
-  // @ts-ignore
    execute: async ({ message }: { message: string }) => {
     console.log(message);
   },
